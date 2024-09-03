@@ -6,9 +6,9 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
-    "preview": "astro build && wrangler pages dev",
+    "preview": "astro build && wrangler dev",
     "astro": "astro",
-    "deploy": "astro build && wrangler pages deploy",
+    "deploy": "astro build && wrangler deploy",
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240821.1",
-    "wrangler": "^3.74.0"
+    "wrangler": "0.0.0-226d68a19"
   }
 }
